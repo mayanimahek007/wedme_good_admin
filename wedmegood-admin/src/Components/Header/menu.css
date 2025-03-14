@@ -1,0 +1,10 @@
+.menu_list_hov:hover {
+    text-decoration: underline;
+    color: #E72E77 !important;
+}
+
+@media (max-width:991px) {
+    .scsdcds{
+        width: 150px;
+    }
+}
