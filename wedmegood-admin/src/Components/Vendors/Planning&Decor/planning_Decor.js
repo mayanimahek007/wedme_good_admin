@@ -333,8 +333,8 @@ const PlanningDecor = () => {
           <div className="modal-dialog">
             <div className="modal-content">
               <div className="modal-header">
-                <h4 className="modal-title">Create Planning & Decor</h4>
-                <button type="button" className="btn-close" onClick={() => {
+              <h4 className="modal-title">{serviceId ? "Update Planning & Decor" : "Create Planning & Decor"}</h4>
+              <button type="button" className="btn-close" onClick={() => {
                   setShowModal(false);
                   clearVal()
                 }}></button>

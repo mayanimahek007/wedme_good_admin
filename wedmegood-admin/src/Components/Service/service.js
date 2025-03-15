@@ -283,7 +283,7 @@ const Service = () => {
                     <div className="modal-dialog">
                         <div className="modal-content">
                             <div className="modal-header">
-                                <h4 className="modal-title">Create Servie</h4>
+                            <h4 className="modal-title">{serviceId ? "Update Service" : "Create Service"}</h4>
                                 <button type="button" className="btn-close" onClick={() => { setShowModal(false); clearVal() }}></button>
                             </div>
                             <div className="modal-body">

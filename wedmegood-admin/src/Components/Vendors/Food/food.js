@@ -333,8 +333,8 @@ const Food = () => {
           <div className="modal-dialog">
             <div className="modal-content">
               <div className="modal-header">
-                <h4 className="modal-title">Create Food</h4>
-                <button type="button" className="btn-close" onClick={() => {
+              <h4 className="modal-title">{serviceId ? "Update Food" : "Create Food"}</h4>
+              <button type="button" className="btn-close" onClick={() => {
                   setShowModal(false);
                   clearVal()
                 }}></button>

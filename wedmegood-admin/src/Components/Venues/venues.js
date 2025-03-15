@@ -293,7 +293,7 @@ const Venues = () => {
                     <div className="modal-dialog">
                         <div className="modal-content">
                             <div className="modal-header">
-                                <h4 className="modal-title">Create Venue</h4>
+                            <h4 className="modal-title">{venueId ? "Update Venues" : "Create Venues"}</h4>
                                 <button type="button" className="btn-close" onClick={() => { setShowModal(false); clearVal(); }}></button>
                             </div>
                             <div className="modal-body">

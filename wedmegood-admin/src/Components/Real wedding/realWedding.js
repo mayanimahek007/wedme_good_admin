@@ -304,8 +304,8 @@ const RealWedding = () => {
                     <div className="modal-dialog">
                         <div className="modal-content">
                             <div className="modal-header">
-                                <h4 className="modal-title">Create Venue</h4>
-                                <button type="button" className="btn-close" onClick={() => { setShowModal(false); }}></button>
+                            <h4 className="modal-title">{serviceId ? "Update Real Wedding" : "Create Real Wedding"}</h4>
+                            <button type="button" className="btn-close" onClick={() => { setShowModal(false); }}></button>
                             </div>
                             <div className="modal-body">
                                 {/* <div className='d-flex justify-content-between gap-2'>

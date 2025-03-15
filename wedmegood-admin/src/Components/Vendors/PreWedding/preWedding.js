@@ -333,7 +333,8 @@ const PreWedding = () => {
           <div className="modal-dialog">
             <div className="modal-content">
               <div className="modal-header">
-                <h4 className="modal-title">Create Pre Wedding</h4>
+              <h4 className="modal-title">{serviceId ? "Update Pre Wedding" : "Create Pre Wedding"}</h4>
+
                 <button type="button" className="btn-close" onClick={() => {
                   setShowModal(false);
                   clearVal()
